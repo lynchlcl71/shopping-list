@@ -41,7 +41,7 @@ footer {
     background-color: darkcyan;
 }
 
-.list_scope {
+.list-scope {
 	left: 0;
 	right: 0;
     text-align: center;
@@ -51,11 +51,11 @@ footer {
 
 }
 
-.text_box {
+.text-box {
 	text-align: center;
 }
 
-.checked {
+.check {
 	padding-left: 22px;
 	color: green;
 
@@ -78,17 +78,23 @@ footer {
 	padding-left: 44px;
 } */
 
-.list_scope span.checked {
+.list-scope span.check {
     right: 40px;
 }
 
-.list_scope span {
+.list-scope span {
     position: absolute;
     right: 0px;
+    cursor: pointer;
 } 
 
-.list_scope p {
+.list-scope p {
     text-align: left;
     padding-left: 44px;
     position: relative;
+}
+
+.list-scope p.checked {
+    color: gray;
+    text-decoration: line-through;
 }
